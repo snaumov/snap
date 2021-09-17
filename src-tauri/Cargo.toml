@@ -20,6 +20,10 @@ serde = { version = "1.0", features = ["derive"] }
 tauri = { version = "1.0.0-beta.8", features = ["api-all"] }
 repng = "0.2.2"
 scrap = "0.5.0"
+image = "0.23.14"
+anyhow = "1.0.0"
+reqwest = { version = "0.11.4", features = ["json"] }
+base64 = "0.13.0"
 
 [features]
 default = [ "custom-protocol" ]
